@@ -1,0 +1,14 @@
+
+
+data_RNA_path: "../data/TIPIT_RNA_TPM_protcoding.csv"
+data_repeats_path: "../data/results/predictions_xgboost_100cv_PFS_2209.csv"
+
+save_dir: "../results/"
+save_name: "RNA_signatures_PFS_classif_0808.csv"
+
+ml_score: True
+classif: True
+
+n_jobs_repeats: 50
+
+
