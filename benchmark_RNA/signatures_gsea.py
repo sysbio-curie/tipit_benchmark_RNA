@@ -9,25 +9,25 @@ import os
 dirname = os.path.dirname(__file__)
 
 
-_DATA_TIS = pd.read_csv(os.path.join(dirname, "data/IIS_TIS_signature.txt"), sep="\t")
-_DIC_IPRES = gp.base.GSEAbase().load_gmt_only(os.path.join(dirname, "data/IPRES_signatures.gmt"))
+_DATA_TIS = pd.read_csv(os.path.join(dirname, "data/gsea_signatures/IIS_TIS_signature.txt"), sep="\t")
+_DIC_IPRES = gp.base.GSEAbase().load_gmt_only(os.path.join(dirname, "data/gsea_signatures/IPRES_signatures.gmt"))
 
 # with open(os.path.join(dirname, "data/C_ECM.txt")) as f:
 #     _DATA_ECM = [line.rstrip() for line in f]
 
-with open(os.path.join(dirname, "data/MIAS.txt")) as f:
+with open(os.path.join(dirname, "data/gsea_signatures/MIAS.txt")) as f:
     _DATA_MIAS = [line.rstrip() for line in f][1:]
 
-_DATA_IMS = pd.read_csv(os.path.join(dirname, "data/IMS_signature.txt"), sep="\t")
-_DATA_IMS_META = pd.read_csv(os.path.join(dirname, "data/IMS_signature_meta.txt"), sep="\t")
+_DATA_IMS = pd.read_csv(os.path.join(dirname, "data/gsea_signatures/IMS_signature.txt"), sep="\t")
+_DATA_IMS_META = pd.read_csv(os.path.join(dirname, "data/gsea_signatures/IMS_signature_meta.txt"), sep="\t")
 
-with open(os.path.join(dirname, "data/PASS_PRE_Sig.JSON")) as f:
+with open(os.path.join(dirname, "data/gsea_signatures/PASS_PRE_Sig.JSON")) as f:
     _DIC_PASS_PRE_SIG = json.load(f)
 
-_DATA_PASS_PRE_COEF = pd.read_csv(os.path.join(dirname, "data/PASS_PRE_Coeff.csv"), sep=";")
+_DATA_PASS_PRE_COEF = pd.read_csv(os.path.join(dirname, "data/gsea_signatures/PASS_PRE_Coeff.csv"), sep=";")
 
-_DIC_MFP = gp.base.GSEAbase().load_gmt_only(os.path.join(dirname, "data/MFP.gmt"))
-_DATA_MFP = pd.read_csv(os.path.join(dirname, "data/TCGA_LUAD_MFP.csv"), index_col=0)
+_DIC_MFP = gp.base.GSEAbase().load_gmt_only(os.path.join(dirname, "data/gsea_signatures/MFP.gmt"))
+_DATA_MFP = pd.read_csv(os.path.join(dirname, "data/gsea_signatures/TCGA_LUAD_MFP.csv"), index_col=0)
 
 
 def get_TIS_score(data):

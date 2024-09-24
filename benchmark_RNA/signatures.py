@@ -6,9 +6,9 @@ from sklearn.preprocessing import StandardScaler
 import os
 dirname = os.path.dirname(__file__)
 
-_DATA_immunopheno = pd.read_csv(os.path.join(dirname, "data/IPS_genes.txt"), sep="\t", index_col=0)
-_DATA_TME = pd.read_csv(os.path.join(dirname, "data/TMEScore.txt"), sep="\t", index_col=0)
-_DATA_MPS = pd.read_csv(os.path.join(dirname, "data/MPS_gene_list.txt"), sep="\t")
+_DATA_immunopheno = pd.read_csv(os.path.join(dirname, "data/marker_signatures/IPS_genes.txt"), sep="\t", index_col=0)
+_DATA_TME = pd.read_csv(os.path.join(dirname, "data/marker_signatures/TMEScore.txt"), sep="\t", index_col=0)
+_DATA_MPS = pd.read_csv(os.path.join(dirname, "data/marker_signatures/MPS_gene_list.txt"), sep="\t")
 
 
 def get_PDL1_score(data):

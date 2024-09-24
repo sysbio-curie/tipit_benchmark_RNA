@@ -14,12 +14,12 @@ dirname = os.path.dirname(__file__)
 
 pd.set_option("future.no_silent_downcasting", True)
 
-_DATA_LM22 = pd.read_csv(os.path.join(dirname, "data/LM22.txt"), sep="\t", index_col=0)
+_DATA_LM22 = pd.read_csv(os.path.join(dirname, "data/deconv_signatures/LM22.txt"), sep="\t", index_col=0)
 
-with open(os.path.join(dirname, "data/Xcell_signatures.json")) as f:
+with open(os.path.join(dirname, "data/deconv_signatures/Xcell_signatures.json")) as f:
     _DIC_Xcell_SIG = json.load(f)
 
-_DATA_Xcell_coef = pd.read_excel(os.path.join(dirname, "data/Xcell_coef.xlsx"), engine="openpyxl", sheet_name=0,
+_DATA_Xcell_coef = pd.read_excel(os.path.join(dirname, "data/deconv_signatures/Xcell_coef.xlsx"), engine="openpyxl", sheet_name=0,
                                  index_col=0)
 _DATA_Xcell_P = _DATA_Xcell_coef["Power coefficient"]
 _DATA_Xcell_V = _DATA_Xcell_coef["Calibration parameter"]
