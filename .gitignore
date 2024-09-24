@@ -49,6 +49,6 @@ venv/
 ENV/
 
 # input data
-data/
+/data
 build/
 dist/
