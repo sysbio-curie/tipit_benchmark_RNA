@@ -1,0 +1,46 @@
+Sign in the signature	Gene Symbol	Entrez Gene Name	Location
+1	AKR1C3	Aldo-keto reductase family 1 member C3	Cytoplasm
+1	BMP1	Bone morphogenetic protein 1	Extracellular Space
+1	CRTAC1	Cartilage acidic protein 1	Extracellular Space
+1	ECEL1	Endothelin converting enzyme like 1	Plasma Membrane
+1	ERC2	ELKS/rab6-interacting/CAST family member 2	Cytoplasm
+1	FAM110C	Family with sequence similarity 110 member C	Cytoplasm
+1	FUT9	Fucosyltransferase 9	Cytoplasm
+1	GABRA2	Gamma-aminobutyric acid type A receptor alpha2 subunit	Plasma Membrane
+1	GAP43	Growth associated protein 43	Plasma Membrane
+1	GREM1	Gremlin 1, DAN family BMP antagonist	Extracellular Space
+1	HECW1	HECT, C2 and WW domain containing E3 ubiquitin protein ligase 1	Cytoplasm
+1	KLHL1	Kelch like family member 1	Cytoplasm
+1	KRT12	Keratin 12	Cytoplasm
+1	LHFPL4	LHFPL tetraspan subfamily member 4	Other
+1	NEFL	Neurofilament light	Cytoplasm
+1	NEFM	Neurofilament medium	Plasma Membrane
+1	NETO1	Neuropilin and tolloid like 1	Extracellular Space
+1	NKX2-2	NK2 homeobox 2	Nucleus
+1	NSG2	Neuronal vesicle trafficking associated 2	Cytoplasm
+1	OCIAD2	OCIA domain containing 2	Cytoplasm
+1	OTOP1	Otopetrin 1	Plasma Membrane
+1	PDE3B	Phosphodiesterase 3B	Cytoplasm
+1	PTPRN2	Protein tyrosine phosphatase, receptor type N2	Plasma Membrane
+1	PTPRT	Protein tyrosine phosphatase, receptor type T	Plasma Membrane
+1	SIGLEC15	Sialic acid binding ig like lectin 15	Plasma Membrane
+1	SLC13A5	Solute carrier family 13 member 5	Plasma Membrane
+1	SLC9A2	Solute carrier family 9 member A2	Plasma Membrane
+1	SLITRK6	SLIT and NTRK like family member 6	Plasma Membrane
+1	SNAP91	Synaptosome associated protein 91	Plasma Membrane
+1	STON2	Stonin 2	Cytoplasm
+1	TAC1	Tachykinin precursor 1	Extracellular Space
+1	VAT1L	Vesicle amine transport 1 like	Other
+1	WNT5A	Wnt family member 5A	Extracellular Space
+-1	ALX1	ALX homeobox 1	Nucleus
+-1	BRD7	Bromodomain containing 7	Nucleus
+-1	DTD1	D-tyrosyl-trna deacylase 1	Cytoplasm
+-1	GRSF1	G-rich RNA sequence binding factor 1	Cytoplasm
+-1	HCN1	Hyperpolarization activated cyclic nucleotide gated potassium channel 1	Plasma Membrane
+-1	LTA4H	Leukotriene A4 hydrolase	Cytoplasm
+-1	OXCT1	3-oxoacid coa-transferase 1	Cytoplasm
+-1	PATJ	PATJ, crumbs cell polarity complex component	Plasma Membrane
+-1	PLXNC1	Plexin C1	Plasma Membrane
+-1	SSBP4	Single stranded DNA binding protein 4	Nucleus
+-1	TELO2	Telomere maintenance 2	Cytoplasm
+-1	TMEM177	Transmembrane protein 177	Cytoplasm

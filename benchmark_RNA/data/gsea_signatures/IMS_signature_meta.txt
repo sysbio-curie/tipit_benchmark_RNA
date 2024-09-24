@@ -1,0 +1,28 @@
+Cluster	Immune Cell	HR	P-value
+Overall	Activated.CD4.T.cell	0.87	<0.001
+Overall	Activated.CD8.T.cell	0.9	<0.001
+Overall	aDC	0.89	<0.001
+Overall	Central memory CD8	1.11	<0.001
+Overall	Cytotoxic cells	0.91	0.01
+Overall	Effector memory CD4	0.81	<0.001
+Overall	Endothelial cells	1.18	<0.001
+Overall	Fibroblasts	1.29	<0.001
+Overall	iDC	1.17	<0.001
+Overall	Macrophages	1.11	0.01
+Overall	Mast cells	1.16	<0.001
+Overall	Mast.cells.activated	0.87	<0.001
+Overall	Mast.cells.resting	1.14	<0.001
+Overall	mDC	0.92	0.03
+Overall	Memory B cells	0.9	<0.001
+Overall	NK CD56dim cells	0.85	<0.001
+Overall	NK.cells.activated	0.83	<0.001
+Overall	NKT	0.79	<0.001
+Overall	pDC	1.13	<0.001
+Overall	T cells	0.91	0.02
+Overall	T helper cells	0.86	<0.001
+Overall	T.cells.CD4.memory.activated	0.84	<0.001
+Overall	T.cells.CD8	0.92	0.03
+Overall	T.cells.regulatory..Tregs.	0.89	<0.001
+Overall	TFH	0.91	0.02
+Overall	Th17	0.89	<0.001
+Overall	Th2	1.14	<0.001

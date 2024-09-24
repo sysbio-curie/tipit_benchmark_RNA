@@ -1,0 +1,239 @@
+Symbol	ENTREZ_ID	Gene.name	TME-signature-group
+HLA-DPB1	3115	major histocompatibility complex, class II, DP beta 1	TME-gene-A
+HLA-DMA	3108	major histocompatibility complex, class II, DM alpha	TME-gene-A
+GZMK	3003	granzyme K	TME-gene-A
+GZMB	3002	granzyme B	TME-gene-A
+CD8A	925	CD8a molecule	TME-gene-A
+TRIM22	10346	tripartite motif containing 22	TME-gene-A
+PSAT1	29968	phosphoserine aminotransferase 1	TME-gene-A
+CXCL10	3627	C-X-C motif chemokine ligand 10	TME-gene-A
+SOCS3	9021	suppressor of cytokine signaling 3	TME-gene-A
+CXCL9	4283	C-X-C motif chemokine ligand 9	TME-gene-A
+IFNG	3458	interferon gamma	TME-gene-A
+IDO1	3620	indoleamine 2,3-dioxygenase 1	TME-gene-A
+CXCL11	6373	C-X-C motif chemokine ligand 11	TME-gene-A
+PBK	55872	PDZ binding kinase	TME-gene-A
+CCL4	6351	C-C motif chemokine ligand 4	TME-gene-A
+CCL5	6352	C-C motif chemokine ligand 5	TME-gene-A
+BCL2A1	597	BCL2 related protein A1	TME-gene-A
+TRBC1	28639	T cell receptor beta constant 1	TME-gene-A
+NFE2L3	9603	nuclear factor, erythroid 2 like 3	TME-gene-A
+CCL3L3	414062	C-C motif chemokine ligand 3 like 3	TME-gene-A
+NLRP3	114548	NLR family pyrin domain containing 3	TME-gene-A
+MCEMP1	199675	mast cell expressed membrane protein 1	TME-gene-A
+POLR3G	10622	RNA polymerase III subunit G	TME-gene-A
+NLRC3	197358	NLR family CARD domain containing 3	TME-gene-A
+KLRC2	3822	killer cell lectin like receptor C2	TME-gene-A
+CD2	914	CD2 molecule	TME-gene-A
+DTL	51514	denticleless E3 ubiquitin protein ligase homolog	TME-gene-A
+MMP9	4318	matrix metallopeptidase 9	TME-gene-A
+SLC2A3	6515	solute carrier family 2 member 3	TME-gene-A
+ZNF367	195828	zinc finger protein 367	TME-gene-A
+RCC1	1104	regulator of chromosome condensation 1	TME-gene-A
+STIL	6491	SCL/TAL1 interrupting locus	TME-gene-A
+TRAC	28755	T-cell receptor alpha constant	TME-gene-A
+UBD	10537	ubiquitin D	TME-gene-A
+WARS1	7453	tryptophanyl-tRNA synthetase	TME-gene-A
+TAP1	6890	transporter 1, ATP binding cassette subfamily B member	TME-gene-A
+HELLS	3070	helicase, lymphoid-specific	TME-gene-A
+RTEL1-TNFRSF6B	100533107	RTEL1-TNFRSF6B readthrough (NMD candidate)	TME-gene-A
+GBP5	115362	guanylate binding protein 5	TME-gene-A
+CDCA2	157313	cell division cycle associated 2	TME-gene-A
+CDT1	81620	chromatin licensing and DNA replication factor 1	TME-gene-A
+TNFAIP2	7127	TNF alpha induced protein 2	TME-gene-A
+TYMP	1890	thymidine phosphorylase	TME-gene-A
+MICB	4277	MHC class I polypeptide-related sequence B	TME-gene-A
+SLC2A14	144195	solute carrier family 2 member 14	TME-gene-A
+CENPH	64946	centromere protein H	TME-gene-A
+MND1	84057	meiotic nuclear divisions 1	TME-gene-A
+BATF2	116071	basic leucine zipper ATF-like transcription factor 2	TME-gene-A
+BRIP1	83990	BRCA1 interacting protein C-terminal helicase 1	TME-gene-A
+E2F7	144455	E2F transcription factor 7	TME-gene-A
+KIF18A	81930	kinesin family member 18A	TME-gene-A
+AIM2	9447	absent in melanoma 2	TME-gene-A
+ETV7	51513	ETS variant 7	TME-gene-A
+ITK	3702	IL2 inducible T-cell kinase	TME-gene-A
+GNLY	10578	granulysin	TME-gene-A
+GPR171	29909	G protein-coupled receptor 171	TME-gene-A
+WDHD1	11169	WD repeat and HMG-box DNA binding protein 1	TME-gene-A
+GBP4	115361	guanylate binding protein 4	TME-gene-A
+CGAS	115004	Mab-21 domain containing 1	TME-gene-A
+CLEC5A	23601	C-type lectin domain containing 5A	TME-gene-A
+ARHGAP11A	9824	Rho GTPase activating protein 11A	TME-gene-A
+GPR84	53831	G protein-coupled receptor 84	TME-gene-A
+ZBED2	79413	zinc finger BED-type containing 2	TME-gene-A
+DCN	1634	decorin	TME-gene-B
+ACTA2	59	actin, alpha 2, smooth muscle, aorta	TME-gene-B
+SPARCL1	8404	SPARC like 1	TME-gene-B
+BEX3	27018	brain expressed X-linked 3	TME-gene-B
+MYLK	4638	myosin light chain kinase	TME-gene-B
+AKR1C1	1645	aldo-keto reductase family 1 member C1	TME-gene-B
+TIMP2	7077	TIMP metallopeptidase inhibitor 2	TME-gene-B
+MXRA7	439921	matrix remodeling associated 7	TME-gene-B
+C11orf96	387763	chromosome 11 open reading frame 96	TME-gene-B
+CAV1	857	caveolin 1	TME-gene-B
+PDGFRA	5156	platelet derived growth factor receptor alpha	TME-gene-B
+FHL1	2273	four and a half LIM domains 1	TME-gene-B
+MGP	4256	matrix Gla protein	TME-gene-B
+EID1	23741	EP300 interacting inhibitor of differentiation 1	TME-gene-B
+DST	667	dystonin	TME-gene-B
+GREM1	26585	gremlin 1, DAN family BMP antagonist	TME-gene-B
+FERMT2	10979	fermitin family member 2	TME-gene-B
+TNC	3371	tenascin C	TME-gene-B
+CYBRD1	79901	cytochrome b reductase 1	TME-gene-B
+LTBP1	4052	latent transforming growth factor beta binding protein 1	TME-gene-B
+ACTG2	72	actin, gamma 2, smooth muscle, enteric	TME-gene-B
+TMEM47	83604	transmembrane protein 47	TME-gene-B
+SERPINE2	5270	serpin family E member 2	TME-gene-B
+ANTXR2	118429	anthrax toxin receptor 2	TME-gene-B
+GNG11	2791	G protein subunit gamma 11	TME-gene-B
+TAGLN	6876	transgelin	TME-gene-B
+GSTA4	2941	glutathione S-transferase alpha 4	TME-gene-B
+PKIG	11142	cAMP-dependent protein kinase inhibitor gamma	TME-gene-B
+MAOA	4128	monoamine oxidase A	TME-gene-B
+FAM3B	54097	family with sequence similarity 3 member B	TME-gene-B
+PBX1	5087	PBX homeobox 1	TME-gene-B
+WLS	79971	wntless Wnt ligand secretion mediator	TME-gene-B
+SVIL	6840	supervillin	TME-gene-B
+MYH11	4629	myosin heavy chain 11	TME-gene-B
+AGT	183	angiotensinogen	TME-gene-B
+SPON1	10418	spondin 1	TME-gene-B
+TGFB1I1	7041	transforming growth factor beta 1 induced transcript 1	TME-gene-B
+PDLIM3	27295	PDZ and LIM domain 3	TME-gene-B
+PDK4	5166	pyruvate dehydrogenase kinase 4	TME-gene-B
+SYNPO2	171024	synaptopodin 2	TME-gene-B
+MSRB3	253827	methionine sulfoxide reductase B3	TME-gene-B
+PROS1	5627	protein S (alpha)	TME-gene-B
+EDNRA	1909	endothelin receptor type A	TME-gene-B
+AKAP12	9590	A-kinase anchoring protein 12	TME-gene-B
+PSD3	23362	pleckstrin and Sec7 domain containing 3	TME-gene-B
+TNS1	7145	tensin 1	TME-gene-B
+JAM3	83700	junctional adhesion molecule 3	TME-gene-B
+PDZRN3	23024	PDZ domain containing ring finger 3	TME-gene-B
+DDR2	4921	discoidin domain receptor tyrosine kinase 2	TME-gene-B
+HMGCS2	3158	3-hydroxy-3-methylglutaryl-CoA synthase 2	TME-gene-B
+SGCE	8910	sarcoglycan epsilon	TME-gene-B
+IRAG1	10335	murine retrovirus integration site 1 homolog	TME-gene-B
+WFDC1	58189	WAP four-disulfide core domain 1	TME-gene-B
+FBLN1	2192	fibulin 1	TME-gene-B
+FMO5	2330	flavin containing monooxygenase 5	TME-gene-B
+MAOB	4129	monoamine oxidase B	TME-gene-B
+AMOTL1	154810	angiomotin like 1	TME-gene-B
+AKT3	10000	AKT serine/threonine kinase 3	TME-gene-B
+CNRIP1	25927	cannabinoid receptor interacting protein 1	TME-gene-B
+CPE	1363	carboxypeptidase E	TME-gene-B
+MAP1B	4131	microtubule associated protein 1B	TME-gene-B
+RBP1	5947	retinol binding protein 1	TME-gene-B
+GNAI1	2770	G protein subunit alpha i1	TME-gene-B
+FOXF2	2295	forkhead box F2	TME-gene-B
+SORBS2	8470	sorbin and SH3 domain containing 2	TME-gene-B
+ZCCHC24	219654	zinc finger CCHC-type containing 24	TME-gene-B
+ZNF704	619279	zinc finger protein 704	TME-gene-B
+ARMCX1	51309	armadillo repeat containing, X-linked 1	TME-gene-B
+DIXDC1	85458	DIX domain containing 1	TME-gene-B
+SSTR1	6751	somatostatin receptor 1	TME-gene-B
+THRB	7068	thyroid hormone receptor beta	TME-gene-B
+C3orf70	285382	chromosome 3 open reading frame 70	TME-gene-B
+PKIB	5570	cAMP-dependent protein kinase inhibitor beta	TME-gene-B
+CNN1	1264	calponin 1	TME-gene-B
+SYTL5	94122	synaptotagmin like 5	TME-gene-B
+DACT1	51339	dishevelled binding antagonist of beta catenin 1	TME-gene-B
+SYNPO	11346	synaptopodin	TME-gene-B
+GAS1	2619	growth arrest specific 1	TME-gene-B
+DPYSL3	1809	dihydropyrimidinase like 3	TME-gene-B
+CCDC80	151887	coiled-coil domain containing 80	TME-gene-B
+TSPYL5	85453	TSPY like 5	TME-gene-B
+DCHS1	8642	dachsous cadherin-related 1	TME-gene-B
+SOBP	55084	sine oculis binding protein homolog	TME-gene-B
+AOC3	8639	amine oxidase, copper containing 3	TME-gene-B
+NDN	4692	necdin, MAGE family member	TME-gene-B
+FGF7P3	654466	fibroblast growth factor 7 pseudogene 3	TME-gene-B
+SMAD9	4093	SMAD family member 9	TME-gene-B
+MCC	4163	mutated in colorectal cancers	TME-gene-B
+CLMP	79827	CXADR like membrane protein	TME-gene-B
+MYL9	10398	myosin light chain 9	TME-gene-B
+RBP4	5950	retinol binding protein 4	TME-gene-B
+PLN	5350	phospholamban	TME-gene-B
+SPOCK1	6695	SPARC/osteonectin, cwcv and kazal like domains proteoglycan 1	TME-gene-B
+COL14A1	7373	collagen type XIV alpha 1 chain	TME-gene-B
+CRYAB	1410	crystallin alpha B	TME-gene-B
+SRPX	8406	sushi repeat containing protein, X-linked	TME-gene-B
+EML1	2009	echinoderm microtubule associated protein like 1	TME-gene-B
+RERG	85004	RAS like estrogen regulated growth inhibitor	TME-gene-B
+PPP1R3C	5507	protein phosphatase 1 regulatory subunit 3C	TME-gene-B
+FLRT2	100506718	uncharacterized LOC100506718	TME-gene-B
+CH25H	9023	cholesterol 25-hydroxylase	TME-gene-B
+HSPB8	26353	heat shock protein family B (small) member 8	TME-gene-B
+PID1	55022	phosphotyrosine interaction domain containing 1	TME-gene-B
+TTC28	23331	tetratricopeptide repeat domain 28	TME-gene-B
+STON1	11037	stonin 1	TME-gene-B
+ABCG2	9429	ATP binding cassette subfamily G member 2 (Junior blood group)	TME-gene-B
+ZSCAN18	65982	zinc finger and SCAN domain containing 18	TME-gene-B
+SCIN	85477	scinderin	TME-gene-B
+C14orf132	56967	chromosome 14 open reading frame 132	TME-gene-B
+PIP4P2	55529	transmembrane protein 55A	TME-gene-B
+WASF3	10810	WAS protein family member 3	TME-gene-B
+PAPLN	89932	papilin, proteoglycan like sulfated glycoprotein	TME-gene-B
+COLEC12	81035	collectin subfamily member 12	TME-gene-B
+ACKR1	2532	atypical chemokine receptor 1 (Duffy blood group)	TME-gene-B
+TMEM150C	441027	transmembrane protein 150C	TME-gene-B
+RAI2	10742	retinoic acid induced 2	TME-gene-B
+TSPAN7	7102	tetraspanin 7	TME-gene-B
+MRGPRF	116535	MAS related GPR family member F	TME-gene-B
+ABCA8	10351	ATP binding cassette subfamily A member 8	TME-gene-B
+CHIC1	53344	cysteine rich hydrophobic domain 1	TME-gene-B
+NBEA	26960	neurobeachin	TME-gene-B
+FAM13C	220965	family with sequence similarity 13 member C	TME-gene-B
+SETBP1	26040	SET binding protein 1	TME-gene-B
+LDOC1	23641	LDOC1, regulator of NFKB signaling	TME-gene-B
+TMEM100	55273	transmembrane protein 100	TME-gene-B
+PRICKLE2	166336	prickle planar cell polarity protein 2	TME-gene-B
+TSPAN18	90139	tetraspanin 18	TME-gene-B
+FABP4	2167	fatty acid binding protein 4	TME-gene-B
+ARHGEF26	26084	Rho guanine nucleotide exchange factor 26	TME-gene-B
+ERICH5	203111	glutamate rich 5	TME-gene-B
+MYOCD	93649	myocardin	TME-gene-B
+BEX2	84707	brain expressed X-linked 2	TME-gene-B
+PPP1R14A	94274	protein phosphatase 1 regulatory inhibitor subunit 14A	TME-gene-B
+FGF13	2258	fibroblast growth factor 13	TME-gene-B
+RUNX1T1	862	RUNX1 translocation partner 1	TME-gene-B
+MAGI2-AS3	100505881	MAGI2 antisense RNA 3	TME-gene-B
+LINC01279	100506621	long intergenic non-protein coding RNA 1279	TME-gene-B
+REEP1	65055	receptor accessory protein 1	TME-gene-B
+PLAC9	219348	placenta specific 9	TME-gene-B
+MYEF2	50804	myelin expression factor 2	TME-gene-B
+PRKD1	5587	protein kinase D1	TME-gene-B
+RGN	9104	regucalcin	TME-gene-B
+CLDN11	5010	claudin 11	TME-gene-B
+ANK2	287	ankyrin 2	TME-gene-B
+ESRRG	2104	estrogen related receptor gamma	TME-gene-B
+SYNC	81493	syncoilin, intermediate filament protein	TME-gene-B
+ZNF667-AS1	100128252	ZNF667 antisense RNA 1 (head to head)	TME-gene-B
+FGF7	2252	fibroblast growth factor 7	TME-gene-B
+SFRP1	6422	secreted frizzled related protein 1	TME-gene-B
+HMCN1	83872	hemicentin 1	TME-gene-B
+TCEAL7	56849	transcription elongation factor A like 7	TME-gene-B
+OGN	4969	osteoglycin	TME-gene-B
+MAGI2	9863	membrane associated guanylate kinase, WW and PDZ domain containing 2	TME-gene-B
+MIR100HG	399959	mir-100-let-7a-2 cluster host gene	TME-gene-B
+FILIP1	27145	filamin A interacting protein 1	TME-gene-B
+LOC100507334	100507334	two pore channel 3 pseudogene	TME-gene-B
+ANKRD6	22881	ankyrin repeat domain 6	TME-gene-B
+PLEKHH2	130271	pleckstrin homology, MyTH4 and FERM domain containing H2	TME-gene-B
+ZNF542P	147947	zinc finger protein 542, pseudogene	TME-gene-B
+ARMCX4	100131755	armadillo repeat containing, X-linked 4	TME-gene-B
+CCN3	4856	nephroblastoma overexpressed	TME-gene-B
+DCLK1	9201	doublecortin like kinase 1	TME-gene-B
+ARHGAP28	79822	Rho GTPase activating protein 28	TME-gene-B
+ECRG4	84417	chromosome 2 open reading frame 40	TME-gene-B
+TRHDE	29953	thyrotropin releasing hormone degrading enzyme	TME-gene-B
+EPHA7	2045	EPH receptor A7	TME-gene-B
+SCRG1	11341	stimulator of chondrogenesis 1	TME-gene-B
+ZNF677	342926	zinc finger protein 677	TME-gene-B
+ZFPM2	23414	zinc finger protein, FOG family member 2	TME-gene-B
+PEG3	5178	paternally expressed 3	TME-gene-B
+SERP2	387923	stress associated endoplasmic reticulum protein family member 2	TME-gene-B
+ZNF415	55786	zinc finger protein 415	TME-gene-B
+MAMDC2	256691	MAM domain containing 2	TME-gene-B
+RBM24	221662	RNA binding motif protein 24	TME-gene-B
+MEOX2	4223	mesenchyme homeobox 2	TME-gene-B

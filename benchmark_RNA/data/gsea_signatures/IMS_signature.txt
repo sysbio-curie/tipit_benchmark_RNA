@@ -1,0 +1,495 @@
+Gene	Immune cell type
+AIM2	Activated.CD4.T.cell
+BIRC3	Activated.CD4.T.cell
+BRIP1	Activated.CD4.T.cell
+CCL20	Activated.CD4.T.cell
+CCL4	Activated.CD4.T.cell
+CCL5	Activated.CD4.T.cell
+CCNB1	Activated.CD4.T.cell
+CCR7	Activated.CD4.T.cell
+DUSP2	Activated.CD4.T.cell
+ESCO2	Activated.CD4.T.cell
+ETS1	Activated.CD4.T.cell
+EXO1	Activated.CD4.T.cell
+EXOC6	Activated.CD4.T.cell
+IARS1	Activated.CD4.T.cell
+ITK	Activated.CD4.T.cell
+KIF11	Activated.CD4.T.cell
+KNTC1	Activated.CD4.T.cell
+NUF2	Activated.CD4.T.cell
+PRC1	Activated.CD4.T.cell
+PSAT1	Activated.CD4.T.cell
+RGS1	Activated.CD4.T.cell
+RTKN2	Activated.CD4.T.cell
+SAMSN1	Activated.CD4.T.cell
+SELL	Activated.CD4.T.cell
+TRAT1	Activated.CD4.T.cell
+ADRM1	Activated.CD8.T.cell
+AHSA1	Activated.CD8.T.cell
+C1GALT1C1	Activated.CD8.T.cell
+CCT6B	Activated.CD8.T.cell
+CD37	Activated.CD8.T.cell
+CD3D	Activated.CD8.T.cell
+CD3E	Activated.CD8.T.cell
+CD3G	Activated.CD8.T.cell
+CD69	Activated.CD8.T.cell
+CD8A	Activated.CD8.T.cell
+CETN3	Activated.CD8.T.cell
+CSE1L	Activated.CD8.T.cell
+GEMIN6	Activated.CD8.T.cell
+GNLY	Activated.CD8.T.cell
+GPT2	Activated.CD8.T.cell
+GZMA	Activated.CD8.T.cell
+GZMH	Activated.CD8.T.cell
+GZMK	Activated.CD8.T.cell
+IL2RB	Activated.CD8.T.cell
+LCK	Activated.CD8.T.cell
+MPZL1	Activated.CD8.T.cell
+NKG7	Activated.CD8.T.cell
+PIK3IP1	Activated.CD8.T.cell
+PTRH2	Activated.CD8.T.cell
+TIMM13	Activated.CD8.T.cell
+ZAP70	Activated.CD8.T.cell
+CCL1	aDC
+EBI3	aDC
+IDO1	aDC
+LAMP3	aDC
+OAS3	aDC
+ADAM23	Central memory CD8
+ATP2B4	Central memory CD8
+BCL2L11	Central memory CD8
+CD300A	Central memory CD8
+CD80	Central memory CD8
+CHN1	Central memory CD8
+F2R	Central memory CD8
+F8	Central memory CD8
+GABARAPL1	Central memory CD8
+GPR183	Central memory CD8
+KLRK1	Central memory CD8
+MSC	Central memory CD8
+PYHIN1	Central memory CD8
+RCAN2	Central memory CD8
+RGS1	Central memory CD8
+SLAMF1	Central memory CD8
+SLFN11	Central memory CD8
+ZEB2	Central memory CD8
+APBA2	Cytotoxic cells
+APOL3	Cytotoxic cells
+CTSW	Cytotoxic cells
+DUSP2	Cytotoxic cells
+GNLY	Cytotoxic cells
+GZMA	Cytotoxic cells
+GZMH	Cytotoxic cells
+KLRB1	Cytotoxic cells
+KLRD1	Cytotoxic cells
+KLRF1	Cytotoxic cells
+KLRK1	Cytotoxic cells
+NKG7	Cytotoxic cells
+RORA	Cytotoxic cells
+RUNX3	Cytotoxic cells
+SIGIRR	Cytotoxic cells
+WHAMMP3	Cytotoxic cells
+ZBTB16	Cytotoxic cells
+BMI1	Effector memory CD4
+CASP3	Effector memory CD4
+CNOT10	Effector memory CD4
+COPB2	Effector memory CD4
+DARS1	Effector memory CD4
+EXOSC9	Effector memory CD4
+EZH2	Effector memory CD4
+GDE1	Effector memory CD4
+IFT74	Effector memory CD4
+KLF5	Effector memory CD4
+NDUFB9	Effector memory CD4
+NUP205	Effector memory CD4
+SHCBP1	Effector memory CD4
+XRCC6	Effector memory CD4
+ACVRL1	Endothelial cells
+APLN	Endothelial cells
+BCL6B	Endothelial cells
+BMP6	Endothelial cells
+BMX	Endothelial cells
+CDH5	Endothelial cells
+CLEC14A	Endothelial cells
+DIPK2B	Endothelial cells
+EDN1	Endothelial cells
+ADGRL4	Endothelial cells
+EMCN	Endothelial cells
+ESAM	Endothelial cells
+ESM1	Endothelial cells
+HECW2	Endothelial cells
+HHIP	Endothelial cells
+KDR	Endothelial cells
+MMRN1	Endothelial cells
+MMRN2	Endothelial cells
+MYCT1	Endothelial cells
+PALMD	Endothelial cells
+PEAR1	Endothelial cells
+PGF	Endothelial cells
+PLXNA2	Endothelial cells
+PTPRB	Endothelial cells
+ROBO4	Endothelial cells
+CAVIN2	Endothelial cells
+SHANK3	Endothelial cells
+SHE	Endothelial cells
+TEK	Endothelial cells
+TIE1	Endothelial cells
+VEPH1	Endothelial cells
+VWF	Endothelial cells
+COL1A1	Fibroblasts
+COL3A1	Fibroblasts
+COL6A1	Fibroblasts
+COL6A2	Fibroblasts
+DCN	Fibroblasts
+GREM1	Fibroblasts
+PAMR1	Fibroblasts
+TAGLN	Fibroblasts
+ATP6V1A	iDC
+C1QB	iDC
+CHST11	iDC
+CSF1	iDC
+DPYD	iDC
+FNDC3B	iDC
+GRP	iDC
+IL1RN	iDC
+INPP5F	iDC
+LPL	iDC
+LPXN	iDC
+MMD	iDC
+PLAU	iDC
+PLCB2	iDC
+RAB38	iDC
+RDX	iDC
+RRAGD	iDC
+TACSTD2	iDC
+TGM2	iDC
+TIMD4	iDC
+DCSTAMP	iDC
+MARCO	Macrophages
+CXCL5	Macrophages
+SCG5	Macrophages
+SULT1C2	Macrophages
+MSR1	Macrophages
+CTSK	Macrophages
+PTGDS	Macrophages
+COLEC12	Macrophages
+GPC4	Macrophages
+PCOLCE2	Macrophages
+CHIT1	Macrophages
+ANOS1	Macrophages
+CLEC5A	Macrophages
+ME1	Macrophages
+DNASE2B	Macrophages
+CCL7	Macrophages
+FN1	Macrophages
+CD163	Macrophages
+GM2A	Macrophages
+SCARB2	Macrophages
+BCAT1	Macrophages
+RAI14	Macrophages
+COL8A2	Macrophages
+APOE	Macrophages
+CHI3L1	Macrophages
+ATG7	Macrophages
+CD84	Macrophages
+FDX1	Macrophages
+MS4A4A	Macrophages
+SGMS1	Macrophages
+EMP1	Macrophages
+CYBB	Macrophages
+CD68	Macrophages
+ABCC4	Mast cells
+ADCYAP1	Mast cells
+CALB2	Mast cells
+CEACAM8	Mast cells
+CMA1	Mast cells
+CPA3	Mast cells
+CTSG	Mast cells
+ELANE	Mast cells
+GATA2	Mast cells
+HDC	Mast cells
+HPGD	Mast cells
+HPGDS	Mast cells
+KIT	Mast cells
+LINC01140	Mast cells
+MAOB	Mast cells
+MLPH	Mast cells
+MPO	Mast cells
+MS4A2	Mast cells
+NR0B1	Mast cells
+PPM1H	Mast cells
+PRG2	Mast cells
+PTGS1	Mast cells
+SCG2	Mast cells
+SIGLEC6	Mast cells
+SLC18A2	Mast cells
+SLC24A3	Mast cells
+TAL1	Mast cells
+TPSAB1	Mast cells
+TPSB2	Mast cells
+VWA5A	Mast cells
+AZU1	Mast.cells.activated
+CCL1	Mast.cells.activated
+CCL20	Mast.cells.activated
+CXCL3	Mast.cells.activated
+IL1B	Mast.cells.activated
+IL5	Mast.cells.activated
+LINC00597	Mast.cells.activated
+ARVCF	Mast.cells.activated
+NOX3	Mast.cells.activated
+NTRK1	Mast.cells.activated
+TEC	Mast.cells.activated
+ADAMTS3	Mast.cells.resting
+ADRB2	Mast.cells.resting
+FAM124B	Mast.cells.resting
+FAM174B	Mast.cells.resting
+GFI1	Mast.cells.resting
+HOXA1	Mast.cells.resting
+MS4A2	Mast.cells.resting
+GADD45B	Mast.cells.resting
+FOXN3	mDC
+ENSA	mDC
+DNAJC15	mDC
+CBX1	mDC
+ATP5PO	mDC
+TPMT	mDC
+SSB	mDC
+PRCP	mDC
+AICDA	Memory B cells
+CCNA2	Memory B cells
+CDKN3	Memory B cells
+CLCN5	Memory B cells
+ENPP1	Memory B cells
+FCER1A	Memory B cells
+FCRL4	Memory B cells
+MYC	Memory B cells
+RUNX2	Memory B cells
+SORL1	Memory B cells
+SOX5	Memory B cells
+STAT5A	Memory B cells
+STAT5B	Memory B cells
+TLR9	Memory B cells
+KIR3DL2	NK CD56dim cells
+SPON2	NK CD56dim cells
+KIR2DL3	NK CD56dim cells
+GZMB	NK CD56dim cells
+KIR3DS1	NK CD56dim cells
+KIR3DL1	NK CD56dim cells
+TTC38	NK CD56dim cells
+PMEPA1	NK CD56dim cells
+IL21R	NK CD56dim cells
+KIR3DL3	NK CD56dim cells
+KIR2DS5	NK CD56dim cells
+KIR2DS2	NK CD56dim cells
+GTF3C1	NK CD56dim cells
+KIR2DS1	NK CD56dim cells
+S1PR5	NK CD56dim cells
+CCND2	NK.cells.activated
+CDK6	NK.cells.activated
+CTSW	NK.cells.activated
+GZMA	NK.cells.activated
+IL12RB2	NK.cells.activated
+KIR2DL1	NK.cells.activated
+KIR2DL4	NK.cells.activated
+KIR2DS4	NK.cells.activated
+KIR3DL2	NK.cells.activated
+NCR3	NK.cells.activated
+TNFSF14	NK.cells.activated
+BTN2A2	NKT
+CD101	NKT
+GNLY	NKT
+KIR2DL1	NKT
+KIR2DL3	NKT
+KIR3DL1	NKT
+KIR3DL2	NKT
+KLRC1	NKT
+MICB	NKT
+NCR1	NKT
+NFATC2IP	NKT
+TNFRSF11A	NKT
+CBX6	pDC
+DAB2	pDC
+DDX17	pDC
+HIGD1A	pDC
+IDH3A	pDC
+IL3RA	pDC
+MAGED1	pDC
+NUCB2	pDC
+OFD1	pDC
+OGT	pDC
+PDIA4	pDC
+SERTAD2	pDC
+SIRPA	pDC
+SPCS3	pDC
+TMED2	pDC
+TMX1	pDC
+UGCG	pDC
+ZDHHC17	pDC
+PRKCQ	T cells
+CD3D	T cells
+CD3G	T cells
+CD28	T cells
+LCK	T cells
+TRAT1	T cells
+BCL11B	T cells
+CD2	T cells
+TRBC1	T cells
+TRA	T cells
+ITM2A	T cells
+SH2D1A	T cells
+CD6	T cells
+CD96	T cells
+NCALD	T cells
+GIMAP5	T cells
+CD3E	T cells
+SKAP1	T cells
+ICOS	T helper cells
+LRBA	T helper cells
+ITM2A	T helper cells
+FAM111A	T helper cells
+PHF10	T helper cells
+NUP107	T helper cells
+SEC24C	T helper cells
+NAP1L4	T helper cells
+BATF	T helper cells
+ASF1A	T helper cells
+FRYL	T helper cells
+SRSF10	T helper cells
+TRA@	T helper cells
+RPA1	T helper cells
+UBE2L3	T helper cells
+ANP32B	T helper cells
+DDX50	T helper cells
+BORA	T helper cells
+PPP2R5C	T helper cells
+SLC25A12	T helper cells
+ATF2	T helper cells
+CD28	T helper cells
+GOLGA8A	T helper cells
+CDC25A	T.cells.CD4.memory.activated
+IFNG	T.cells.CD4.memory.activated
+IL17A	T.cells.CD4.memory.activated
+IL26	T.cells.CD4.memory.activated
+IL3	T.cells.CD4.memory.activated
+IL4	T.cells.CD4.memory.activated
+IL9	T.cells.CD4.memory.activated
+ORC1	T.cells.CD4.memory.activated
+RRP9	T.cells.CD4.memory.activated
+SKA1	T.cells.CD4.memory.activated
+CD8A	T.cells.CD8
+CD8B	T.cells.CD8
+CRTAM	T.cells.CD8
+TRAV12-2	T.cells.CD8
+BARX2	T.cells.regulatory..Tregs.
+CD5	T.cells.regulatory..Tregs.
+CD7	T.cells.regulatory..Tregs.
+CD70	T.cells.regulatory..Tregs.
+CEMP1	T.cells.regulatory..Tregs.
+CRISP3	T.cells.regulatory..Tregs.
+CTLA4	T.cells.regulatory..Tregs.
+EFNA5	T.cells.regulatory..Tregs.
+FOXP3	T.cells.regulatory..Tregs.
+FRMD8	T.cells.regulatory..Tregs.
+HIC1	T.cells.regulatory..Tregs.
+HMGB3P30	T.cells.regulatory..Tregs.
+KIRREL1	T.cells.regulatory..Tregs.
+LAIR2	T.cells.regulatory..Tregs.
+LILRA4	T.cells.regulatory..Tregs.
+LOC126987	T.cells.regulatory..Tregs.
+NPAS1	T.cells.regulatory..Tregs.
+NTN3	T.cells.regulatory..Tregs.
+PLCH2	T.cells.regulatory..Tregs.
+PMCH	T.cells.regulatory..Tregs.
+RYR1	T.cells.regulatory..Tregs.
+SEC31B	T.cells.regulatory..Tregs.
+KLHL22	T.cells.regulatory..Tregs.
+SIT1	T.cells.regulatory..Tregs.
+SKAP1	T.cells.regulatory..Tregs.
+SSX1	T.cells.regulatory..Tregs.
+TRAV21	T.cells.regulatory..Tregs.
+TRAV8-6	T.cells.regulatory..Tregs.
+TRAV9-2	T.cells.regulatory..Tregs.
+TYR	T.cells.regulatory..Tregs.
+CHI3L2	TFH
+CXCL13	TFH
+MYO7A	TFH
+CHGB	TFH
+ICA1	TFH
+HEY1	TFH
+CDK5R1	TFH
+ST8SIA1	TFH
+PDCD1	TFH
+BLR1	TFH
+ELAPOR1	TFH
+PVALB	TFH
+TSHR	TFH
+LDLRAD4	TFH
+TOX	TFH
+SLC7A10	TFH
+SMAD1	TFH
+POMT1	TFH
+PASK	TFH
+MRTFB	TFH
+PTPN13	TFH
+KCNK5	TFH
+ZNF764	TFH
+MAF	TFH
+MYO6	TFH
+SIRPG	TFH
+THADA	TFH
+MAGEH1	TFH
+B3GAT1	TFH
+SH3TC1	TFH
+H4C12	TFH
+STK39	TFH
+DBNL	Th17
+B4GALNT4	Th17
+C2CD4A	Th17
+C2CD4B	Th17
+CA2	Th17
+CCDC65	Th17
+CEACAM3	Th17
+CHRM3	Th17
+DOC2B	Th17
+F12	Th17
+FURIN	Th17
+GPR25	Th17
+IL17A	Th17
+IL17C	Th17
+IL17F	Th17
+IL17RC	Th17
+IL17RE	Th17
+IL23A	Th17
+ILDR1	Th17
+LONRF3	Th17
+LTK	Th17
+MOCOS	Th17
+SH2D6	Th17
+TNIP2	Th17
+TRAF3IP2	Th17
+YBX2	Th17
+ASB2	Th2
+CALD1	Th2
+CCR2	Th2
+CSRP2	Th2
+DAPK1	Th2
+DLC1	Th2
+DNAJC12	Th2
+DUSP6	Th2
+GATA3	Th2
+GNAI1	Th2
+HTR2B	Th2
+LAMP3	Th2
+NRP2	Th2
+OSBPL1A	Th2
+PDE4B	Th2
+PHLDA1	Th2
+PLA2G4A	Th2
+RAB27B	Th2
+RBMS3	Th2
+RNF125	Th2
+SIGLEC10	Th2
+SKAP1	Th2
+SMAD2	Th2
+TMPRSS3	Th2
+UBASH3A	Th2
