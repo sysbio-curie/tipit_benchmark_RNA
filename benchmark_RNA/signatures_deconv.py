@@ -1,3 +1,9 @@
+# Code adapted from Kang H, et al. A Comprehensive Benchmark of Transcriptomic Biomarkers for
+# Immune Checkpoint Blockades. Cancers. 2023
+
+# R source code (Kang H, et al.): https://ngdc.cncb.ac.cn/icb/resources
+
+
 import pandas as pd
 import json
 import numpy as np
@@ -27,7 +33,28 @@ _DATA_Xcell_K = _DATA_Xcell_coef.iloc[:, 3:]
 
 
 def get_CD8T_MCPcounter_score(data):
+    """ Get the CD8T_MCPcounter score
 
+    Parameters
+    ----------
+    data: pandas DataFrame
+        A DataFrame of shape (n_samples, n_genes) containing transcriptomic data used to define and fit the signature.
+            - Samples are in row and genes in columns.
+            - Column names should be gene symbols.
+
+    Returns
+    -------
+    fun: Callable
+        Function to apply to each row (i.e., sample) of a pandas DataFrame (shape samples x genes) to compute
+        CD8T_MCPcounter score for each sample.
+
+    Notes
+    -----
+    Description: Estimation of the proportion of CD8+ T cell with MCP counter deconvolution method.
+    Cancer type: Multiple
+    Antibodies: anti PD-1
+    References (DOIs): 10.1038/nature13954
+    """
     gene = "CD8B"
     if gene in data.columns:
         def fun(row):
@@ -39,6 +66,28 @@ def get_CD8T_MCPcounter_score(data):
 
 
 def get_CD8T_Xcell_score(data):
+    """ Get the CD8T_Xcell score
+
+    Parameters
+    ----------
+    data: pandas DataFrame
+        A DataFrame of shape (n_samples, n_genes) containing transcriptomic data used to define and fit the signature.
+            - Samples are in row and genes in columns.
+            - Column names should be gene symbols.
+
+    Returns
+    -------
+    fun: Callable
+        Function to apply to each row (i.e., sample) of a pandas DataFrame (shape samples x genes) to compute
+        CD8T_Xcell score for each sample.
+
+    Notes
+    -----
+    Description: Estimation of the proportion of CD8+ T cell with Xcell deconvolution method.
+    Cancer type: Multiple
+    Antibodies: anti PD-1
+    References (DOIs): 10.1038/nature13954
+    """
     pathways_dic = {}
     for pa, genes in _DIC_Xcell_SIG.items():
         temp = set(data.columns) & set(genes)
@@ -72,6 +121,28 @@ def get_CD8T_Xcell_score(data):
 
 
 def get_CD8T_CIBERSORT_score(data):
+    """ Get the CD8T_CIBERSORT score
+
+    Parameters
+    ----------
+    data: pandas DataFrame
+        A DataFrame of shape (n_samples, n_genes) containing transcriptomic data used to define and fit the signature.
+            - Samples are in row and genes in columns.
+            - Column names should be gene symbols.
+
+    Returns
+    -------
+    fun: Callable
+        Function to apply to each row (i.e., sample) of a pandas DataFrame (shape samples x genes) to compute
+        CD8T_CIBERSORT score for each sample.
+
+    Notes
+    -----
+    Description: Estimation of the proportion of CD8+ T cell with CIBERSORT deconvolution method.
+    Cancer type: Multiple
+    Antibodies: anti PD-1
+    References (DOIs): 10.1038/nature13954
+    """
     Signature = _DATA_LM22.copy()
     common_genes = list(set(Signature.index) & set(data.columns))
     if len(common_genes) > 0:
@@ -91,6 +162,28 @@ def get_CD8T_CIBERSORT_score(data):
 
 
 def get_Immuno_CIBERSORT_score(data):
+    """ Get the Immuno_CIBERSORT score
+
+    Parameters
+    ----------
+    data: pandas DataFrame
+        A DataFrame of shape (n_samples, n_genes) containing transcriptomic data used to define and fit the signature.
+            - Samples are in row and genes in columns.
+            - Column names should be gene symbols.
+
+    Returns
+    -------
+    fun: Callable
+        Function to apply to each row (i.e., sample) of a pandas DataFrame (shape samples x genes) to compute
+        Immuno_CIBERSORT score for each sample.
+
+    Notes
+    -----
+    Description: Weighted sum of the proportion of 8 immune subsets estimated with CIBERSORT deconvolution method.
+    Cancer type: Melanoma
+    Antibodies: anti PD-1
+    References (DOIs): 10.1038/nature13954
+    """
     Signature = _DATA_LM22.copy()
     common_genes = list(set(Signature.index) & set(data.columns))
     if len(common_genes) > 0:
@@ -111,10 +204,43 @@ def get_Immuno_CIBERSORT_score(data):
 
 
 def get_EcoTyper_score(data):
+    """ Get the EcoTyper score
+
+    Parameters
+    ----------
+    data: pandas DataFrame
+        A DataFrame of shape (n_samples, n_genes) containing transcriptomic data used to define and fit the signature.
+            - Samples are in row and genes in columns.
+            - Column names should be gene symbols.
+
+    Returns
+    -------
+    fun: Callable
+        Function to apply to each row (i.e., sample) of a pandas DataFrame (shape samples x genes) to compute
+        EcoTyper score for each sample.
+
+    Notes
+    -----
+    Description:
+    Cancer type:
+    Antibodies:
+    References (DOIs):
+    """
     raise NotImplementedError
 
 
 def _cibersort(y, S):
+    """
+    Parameters
+    ----------
+
+    Returns
+    -------
+
+    Notes
+    -----
+
+    """
     nus = [0.25, 0.5, 0.75]
     results = np.zeros(2)
     coefs = np.zeros((S.shape[1], 3))
@@ -139,6 +265,17 @@ def _cibersort(y, S):
 
 
 def _xcell_aggregate(raw_scores):
+    """
+    Parameters
+    ----------
+
+    Returns
+    -------
+
+    Notes
+    -----
+
+    """
     L = []
     for ind in raw_scores.index:
         L.append(ind.split('_')[0])
@@ -147,12 +284,34 @@ def _xcell_aggregate(raw_scores):
 
 
 def _xcell_transform_scores(raw_scores, min_values):
+    """
+    Parameters
+    ----------
+
+    Returns
+    -------
+
+    Notes
+    -----
+
+    """
     tscores = ((raw_scores - min_values) / 5000).clip(lower=0)
     tscores = (tscores ** _DATA_Xcell_P.copy()) / (_DATA_Xcell_V.copy()*2)
     return tscores
 
 
 def _xcell_spillover(tscores, K, alpha=0.5):
+    """
+    Parameters
+    ----------
+
+    Returns
+    -------
+
+    Notes
+    -----
+
+    """
     K = K.loc[tscores.index, tscores.index].values
     K = K * alpha
     np.fill_diagonal(K, 1)
