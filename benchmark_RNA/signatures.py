@@ -4,12 +4,13 @@
 # R source code (Kang H, et al.): https://ngdc.cncb.ac.cn/icb/resources
 
 
-import pandas as pd
+import os
+
 import numpy as np
+import pandas as pd
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 
-import os
 dirname = os.path.dirname(__file__)
 
 _DATA_immunopheno = pd.read_csv(os.path.join(dirname, "data/marker_signatures/IPS_genes.txt"), sep="\t", index_col=0)
@@ -417,7 +418,7 @@ def get_TIG_score(data):
     genes = list(set(genes) & set(data.columns))
     if len(genes) > 0:
         def fun(row):
-            return (weights[genes].values*row[genes]).sum()
+            return (weights[genes].values * row[genes]).sum()
     else:
         def fun(row):
             return np.nan
@@ -452,12 +453,12 @@ def get_Immunopheno_score(data):
     if len(ips_genes) > 0:
         def fun(row):
             gene_expr = row[ips_genes.index]
-            gene_expr = (gene_expr - gene_expr.mean())/gene_expr.std()
+            gene_expr = (gene_expr - gene_expr.mean()) / gene_expr.std()
             weights, expr = [], []
             for _, d in ips_genes.groupby("NAME"):
                 expr.append(gene_expr[d.index].mean())
                 weights.append(d["WEIGHT"].mean())
-            weighted_expr = np.array(weights)*np.array(expr)
+            weighted_expr = np.array(weights) * np.array(expr)
             return (np.mean(weighted_expr[:10]) + np.mean(weighted_expr[10:20]) + np.mean(weighted_expr[20:24])
                     + np.mean(weighted_expr[24:26])
                     )
@@ -698,7 +699,7 @@ def get_IRG_score(data):
     genes = list(set(genes) & set(data.columns))
     if len(genes) > 0:
         def fun(row):
-            return (weights[genes].values*row[genes]).sum()
+            return (weights[genes].values * row[genes]).sum()
     else:
         def fun(row):
             return np.nan
@@ -767,7 +768,7 @@ def get_MPS_score(data):
     genes = list(set(genes) & set(data.columns))
     if len(genes) > 0:
         def fun(row):
-            return (weights[genes]*row[genes]).sum()
+            return (weights[genes] * row[genes]).sum()
     else:
         def fun(row):
             return np.nan
@@ -834,7 +835,3 @@ def get_TIDE_score(data):
     References (DOIs):
     """
     raise NotImplementedError
-
-
-
-

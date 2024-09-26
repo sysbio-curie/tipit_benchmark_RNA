@@ -4,16 +4,17 @@
 # R source code (Kang H, et al.): https://ngdc.cncb.ac.cn/icb/resources
 
 
-import pandas as pd
 import json
-import numpy as np
-import gseapy as gp
-from sklearn.preprocessing import StandardScaler
-from sklearn.svm import NuSVR
-from sklearn.metrics import mean_squared_error, r2_score
-from scipy.optimize import lsq_linear
 import os
 import warnings
+
+import gseapy as gp
+import numpy as np
+import pandas as pd
+from scipy.optimize import lsq_linear
+from sklearn.metrics import mean_squared_error, r2_score
+from sklearn.preprocessing import StandardScaler
+from sklearn.svm import NuSVR
 
 warnings.filterwarnings('ignore', category=UserWarning, module='openpyxl')
 dirname = os.path.dirname(__file__)
@@ -338,7 +339,7 @@ def _xcell_transform_scores(raw_scores, min_values):
     Reference (DOI): 10.1186/s13059-017-1349-1
     """
     tscores = ((raw_scores - min_values) / 5000).clip(lower=0)
-    tscores = (tscores ** _DATA_Xcell_P.copy()) / (_DATA_Xcell_V.copy()*2)
+    tscores = (tscores ** _DATA_Xcell_P.copy()) / (_DATA_Xcell_V.copy() * 2)
     return tscores
 
 

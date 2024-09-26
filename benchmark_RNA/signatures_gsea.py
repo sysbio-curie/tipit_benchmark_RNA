@@ -4,16 +4,16 @@
 # R source code (Kang H, et al.): https://ngdc.cncb.ac.cn/icb/resources
 
 
-import pandas as pd
-import numpy as np
-import gseapy as gp
 import json
-from sklearn.preprocessing import StandardScaler
-from sklearn.neighbors import KNeighborsClassifier
-
 import os
-dirname = os.path.dirname(__file__)
 
+import gseapy as gp
+import numpy as np
+import pandas as pd
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.preprocessing import StandardScaler
+
+dirname = os.path.dirname(__file__)
 
 _DATA_TIS = pd.read_csv(os.path.join(dirname, "data/gsea_signatures/IIS_TIS_signature.txt"), sep="\t")
 _DIC_IPRES = gp.base.GSEAbase().load_gmt_only(os.path.join(dirname, "data/gsea_signatures/IPRES_signatures.gmt"))
@@ -166,7 +166,7 @@ def get_APM_score(data):
     References (DOIs): 10.1186/s13059-016-1092-z
     """
     pathways_dic = {"APM_pathway":
-                    list(set(["HLA-A", "HLA-B", "HLA-C", "B2M", "TAP1", "TAP2", "TAPBP"]) & set(data.columns))}
+                        list(set(["HLA-A", "HLA-B", "HLA-C", "B2M", "TAP1", "TAP2", "TAPBP"]) & set(data.columns))}
     if len(pathways_dic["APM_pathway"]) > 0:
         min_size = len(pathways_dic["APM_pathway"])
 
@@ -367,7 +367,7 @@ def get_IMS_score(data):
             res = ss_gsea.res2d.pivot(index="Name", columns="Term", values="NES").T
             res.index.name = None
             res.columns.name = None
-            return (weights*res.squeeze()).sum()
+            return (weights * res.squeeze()).sum()
     else:
 
         def fun(row):
@@ -547,4 +547,3 @@ def get_TIRP_score(data):
     References (DOIs):
     """
     raise NotImplementedError
-
