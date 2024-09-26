@@ -25,8 +25,8 @@ _DATA_LM22 = pd.read_csv(os.path.join(dirname, "data/deconv_signatures/LM22.txt"
 with open(os.path.join(dirname, "data/deconv_signatures/Xcell_signatures.json")) as f:
     _DIC_Xcell_SIG = json.load(f)
 
-_DATA_Xcell_coef = pd.read_excel(os.path.join(dirname, "data/deconv_signatures/Xcell_coef.xlsx"), engine="openpyxl", sheet_name=0,
-                                 index_col=0)
+_DATA_Xcell_coef = pd.read_excel(os.path.join(dirname, "data/deconv_signatures/Xcell_coef.xlsx"), engine="openpyxl",
+                                 sheet_name=0, index_col=0)
 _DATA_Xcell_P = _DATA_Xcell_coef["Power coefficient"]
 _DATA_Xcell_V = _DATA_Xcell_coef["Calibration parameter"]
 _DATA_Xcell_K = _DATA_Xcell_coef.iloc[:, 3:]
@@ -83,6 +83,13 @@ def get_CD8T_Xcell_score(data):
 
     Notes
     -----
+    Here calibration parameters, power coefficients, and spillover compensation matrix were set for sequencing-based
+    data. For microarray-based data you'll need to modify the preamble of this file and load a new _Data_Xcell_coef
+    file with the following code:
+
+    _DATA_Xcell_coef = pd.read_excel(os.path.join(dirname, "data/deconv_signatures/Xcell_coef.xlsx"), engine="openpyxl",
+                                 sheet_name=1, index_col=0)
+
     Description: Estimation of the proportion of CD8+ T cell with Xcell deconvolution method.
     Cancer type: Multiple
     Antibodies: anti PD-1
@@ -230,16 +237,29 @@ def get_EcoTyper_score(data):
 
 
 def _cibersort(y, S):
-    """
+    """ Fit nu-support vector regressions (ν-SVR) (with different values of nu coefficient) to estimate the abundance
+    of different cell types within a sample (CIBERSORT method, see references).
+
     Parameters
     ----------
+    y: 1D array-like
+        Expression of CIBERSORT marker genes for one sample (shape (m,) with m the number of marker genes)
+
+    S: 2D array-like
+        Signature/basis matrix containing the expression of marker genes for different cell types (shape (m, c) with
+        m the number of marker genes and c the number of cell types)
 
     Returns
     -------
+    freq: 1D numpy array
+        Estimated frequencies for CIBERSORT cell types for the sample of interest (shape (c,)
+
+    results: 1D numpy array
+        Coefficients of determination for the best fit for nu support vector regression (ν-SVR).
 
     Notes
     -----
-
+    References (DOIs): 10.1038/nmeth.3337, 10.1038/s41587-019-0114-2
     """
     nus = [0.25, 0.5, 0.75]
     results = np.zeros(2)
@@ -265,16 +285,24 @@ def _cibersort(y, S):
 
 
 def _xcell_aggregate(raw_scores):
-    """
+    """ Average the ssGSEA score of gene signatures associated to the same cell type
+
     Parameters
     ----------
+    raw_scores: pandas DataFrame
+        Dataframe containing the ssGSEA scores of the 489 Xcell gene signatures for each sample. Gene signatures are
+        in rows and samples in columns (shape 489 x N, with N number of samples). Row names should be the Xcell gene
+        signatures (e.g., )
 
     Returns
     -------
+    pandas DataFrame
+        DataFrame containing the average score for each of the 64 cell types and each sample (shape 64 x N, with N
+        number of samples)
 
     Notes
     -----
-
+    Reference (DOI): 10.1186/s13059-017-1349-1
     """
     L = []
     for ind in raw_scores.index:
@@ -284,16 +312,30 @@ def _xcell_aggregate(raw_scores):
 
 
 def _xcell_transform_scores(raw_scores, min_values):
-    """
+    """ Transorm cell types score
+
     Parameters
     ----------
+    raw_scores: pandas DataFrame
+        Scores for each cell type and each sample (shape 64 x N, with N the number of samples)
+
+    min_values: pandas DataFrame
+        Min values for the scores of each cell type across the different samples (shape 64 x 1)
 
     Returns
     -------
+    tscores: pandas DataFrame
+        Transformed scores (shape 64 x N, with N the number of samples)
 
     Notes
     -----
+    Here calibration parameters and power coefficients were set for sequencing-based data. For microarray-based data
+    you'll need to modify the preamble of this file and load a new _Data_Xcell_coef file with the following code:
 
+    _DATA_Xcell_coef = pd.read_excel(os.path.join(dirname, "data/deconv_signatures/Xcell_coef.xlsx"), engine="openpyxl",
+                                 sheet_name=1, index_col=0)
+
+    Reference (DOI): 10.1186/s13059-017-1349-1
     """
     tscores = ((raw_scores - min_values) / 5000).clip(lower=0)
     tscores = (tscores ** _DATA_Xcell_P.copy()) / (_DATA_Xcell_V.copy()*2)
@@ -301,16 +343,29 @@ def _xcell_transform_scores(raw_scores, min_values):
 
 
 def _xcell_spillover(tscores, K, alpha=0.5):
-    """
+    """ Adjust transformed Xcell scores with spillover compensation for each sample (i.e., adjust for spillover between
+     dependent cell types)
+
     Parameters
     ----------
+    tscores: pandas DataFrame
+        Transformed Xcell scores of one sample (size 64 x 1)
+
+    K: pandas DataFrame
+        Compensation coefficients (shape 64 x 64). Column and row names should correspond to Xfer cell types.
+
+    alpha: float
+        Scaling parameter to multiply all off-diagonal coefficient of K (avoid over compensation). The default is 0.5
+        (see reference below).
 
     Returns
     -------
+    adjusted_scores: pandas DataFrame
+        Ajusted Xcell scores of one sample to compensate spillover effect (shape 64 x 1).
 
     Notes
     -----
-
+    Reference (DOI): 10.1186/s13059-017-1349-1
     """
     K = K.loc[tscores.index, tscores.index].values
     K = K * alpha
