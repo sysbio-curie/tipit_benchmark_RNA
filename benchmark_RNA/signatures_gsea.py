@@ -489,6 +489,27 @@ def get_MFP_score(data):
 
     Notes
     -----
+    In this implementation, we use the TCGA-LUAD dataset to infer microenvironment subtypes. Specifically:
+
+    - We compute the ssGSEA scores for 29 signatures across all TCGA samples and apply the KMeans clustering algorithm.
+      (Note: The original article used the Louvain clustering method.)
+    - The MFP score then assigns a new sample to one of these microenvironment subtypes using the K-nearest neighbors
+     algorithm (K=5 in our case, while K=35 was used in the original article).
+
+    ### Recommendations for Other Cancer Types
+    To compute MFP scores for cancer types other than lung cancer, we recommend (as suggested in the original article)
+    redefining the microenvironment subtypes using an appropriate dataset. For example, use the TCGA-SKCM dataset for
+    melanoma samples. The process involves:
+
+    1. Compute ssGSEA Scores: Calculate ssGSEA scores for the 29 signatures.
+    2. Cluster Analysis: Perform clustering on the ssGSEA scores.
+    3. Save Results: Save the ssGSEA scores and cluster labels (use "clusters" as the column name) in a pandas
+    DataFrame.
+
+    Update the file header and load your DataFrame as shown below:
+
+    _DATA_MFP = pd.read_csv(os.path.join(dirname, "data/gsea_signatures/your_data.csv"), index_col=0)
+
     Description: Classification into four tumor microenvironment (TME) subtypes using 29 functionnal gene expression
                  signatures representing the major functional components and immune, stromal,
                  and other cellular populations of the tumor.
