@@ -1,14 +1,14 @@
-
-
+# Pathes for transcriptomic data and cross-validation indices
 data_RNA_path: "../data/TIPIT_RNA_TPM_protcoding.csv"
 data_repeats_path: "../data/results/predictions_xgboost_100cv_PFS_2209.csv"
 
+# Path for saving the results
 save_dir: "../results/"
 save_name: "RNA_signatures_PFS_classif_0808.csv"
 
-ml_score: True
-classif: True
+ml_score: True # whether to train and test ML algorithms with the signatures as input
+classif: True # whether to consider a classification task (if True) or a survival prediction task (otherwise)
 
-n_jobs_repeats: 50
+n_jobs_repeats: 1 # number of jobs for dealing with several repeats in parallel
 
 
