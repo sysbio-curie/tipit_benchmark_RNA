@@ -31,7 +31,7 @@ Optional (to run the scripts):
 Clone the repository: 
 
 ```
-git clone https://github.com/ncaptier/tipit_benchmark_RNA
+git clone https://github.com/sysbio-curie/tipit_benchmark_RNA
 ```
 
 ## Examples 
