@@ -74,7 +74,7 @@ MFP_scores = data_test.agg(MFP_fun, axis=1)
 
 ## Scripts
 
-We provide [a Python scripts](scripts/extract_signatures.py) to reproduce the benchmark of transcriptomic signatures for
+We provide [a Python script](scripts/extract_signatures.py) to reproduce the benchmark of transcriptomic signatures for
 the prediction of immunotherapy outcome in lung cancer in [our paper](https://doi.org/10.1101/2024.06.27.24309583). It
 defines and tests the different signatures across the fold of a repeated cross-validation scheme.
 
