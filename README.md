@@ -128,5 +128,5 @@ defines and tests the different signatures across the fold of a repeated cross-v
 ## Acknowledgements
 
 This repository was created as part of the PhD project of [Nicolas Captier](https://ncaptier.github.io/) in the 
-[Computational Systems Biologie of Cancer group](https://institut-curie.org/team/barillot) and the
+[Computational Systems Biology of Cancer group](https://institut-curie.org/team/barillot) and the
 [ Laboratory of Translational Imaging in Oncology (LITO)](https://www.lito-web.fr/en/) of Institut Curie.
