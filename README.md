@@ -78,6 +78,10 @@ We provide [a Python script](scripts/extract_signatures.py) to reproduce the ben
 the prediction of immunotherapy outcome in lung cancer in [our paper](https://doi.org/10.1101/2024.06.27.24309583). It
 defines and tests the different signatures across the fold of a repeated cross-validation scheme.
 
+```commandline
+python extract_signatures.py -c config.yaml
+```
+
 ## Available transcriptomic signatures
 
 
