@@ -107,12 +107,12 @@ defines and tests the different signatures across the fold of a repeated cross-v
 | [TIG](/benchmark_RNA/signatures.py#L389)                     | Marker genes   | Multiple             | PD-1                | [Cristescu *et al.*](https://doi.org/10.1126/science.aar3593)        |
 | [TLS](/benchmark_RNA/signatures.py#L709)                     | Marker genes   | Melanoma             | PD-1, CTLA-4        | [Cabrita *et al.*](https://doi.org/10.1038/s41586-019-1914-8)        | 
 | [TME](/benchmark_RNA/signatures.py#L615)                     | Marker genes   | Gastric cancer       | PD-1, PD-L1, CTLA-4 | [Zeng *et al.*](https://doi.org/10.1158/2326-6066.cir-18-0436)       |
-| [APM](/benchmark_RNA/signatures_gsea.py#L264)                | GSEA           | Renal cell carcinoma | PD-1                | [Senbabaoglu *et al.*](https://doi.org/10.1186/s13059-016-1092-z)    |
-| [CECMdown](/benchmark_RNA/signatures_gsea.py#L404)           | GSEA           | Multiple             | PD-1                | [Chakravarthy *et al.*](https://doi.org/10.1038/s41467-018-06654-8)  |
-| [CECMup](/benchmark_RNA/signatures_gsea.py#L360)             | GSEA           | Multiple             | PD-1                | [Chakravarthy *et al.*](https://doi.org/10.1038/s41467-018-06654-8)  |
-| [IIS](/benchmark_RNA/signatures_gsea.py#L213)                | GSEA           | Renal cell carcinoma | PD-1                | [Senbabaoglu *et al.*](https://doi.org/10.1186/s13059-016-1092-z)    |
-| [IMS](/benchmark_RNA/signatures_gsea.py#L448)                | GSEA           | Gastric cancer       | PD-1, PD-L1         | [Lin *et al.*](https://doi.org/10.1038/s41525-021-00249-x)           |
-| [IPRES](/benchmark_RNA/signatures_gsea.py#L307)              | GSEA           | Multiple             | PD-1                | [Hugo *et al.*](https://doi.org/10.1016/j.cell.2016.02.065)          |
+| [APM](/benchmark_RNA/signatures_gsea.py#L144)                | GSEA           | Renal cell carcinoma | PD-1                | [Senbabaoglu *et al.*](https://doi.org/10.1186/s13059-016-1092-z)    |
+| [CECMdown](/benchmark_RNA/signatures_gsea.py#L284)           | GSEA           | Multiple             | PD-1                | [Chakravarthy *et al.*](https://doi.org/10.1038/s41467-018-06654-8)  |
+| [CECMup](/benchmark_RNA/signatures_gsea.py#L240)             | GSEA           | Multiple             | PD-1                | [Chakravarthy *et al.*](https://doi.org/10.1038/s41467-018-06654-8)  |
+| [IIS](/benchmark_RNA/signatures_gsea.py#L93)                | GSEA           | Renal cell carcinoma | PD-1                | [Senbabaoglu *et al.*](https://doi.org/10.1186/s13059-016-1092-z)    |
+| [IMS](/benchmark_RNA/signatures_gsea.py#L328)                | GSEA           | Gastric cancer       | PD-1, PD-L1         | [Lin *et al.*](https://doi.org/10.1038/s41525-021-00249-x)           |
+| [IPRES](/benchmark_RNA/signatures_gsea.py#L187)              | GSEA           | Multiple             | PD-1                | [Hugo *et al.*](https://doi.org/10.1016/j.cell.2016.02.065)          |
 | [MFP](/benchmark_RNA/signatures_gsea.py#L474)                | GSEA           | Multiple             | PD-1, PD-L1, CTLA-4 | [Bagaev *et al.*](https://doi.org/10.1016/j.ccell.2021.04.014)       |
 | [MIAS](/benchmark_RNA/signatures_gsea.py#L433)               | GSEA           | Melanoma             | PD-1                | [Wu *et al.*](https://doi.org/10.1038/s41467-021-27651-4)            |
 | [PASSPRE](/benchmark_RNA/signatures_gsea.py#L379)            | GSEA           | Melanoma             | PD-1                | [Du *et al.*](https://doi.org/10.1038/s41467-021-26299-4)            |
