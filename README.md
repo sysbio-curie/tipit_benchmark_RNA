@@ -6,11 +6,7 @@ immunotherapy response in the literature, for different cancer types and checkpo
 It contains the code used in our study to perform a benchmark of transcriptomic signatures to predict immunotherapy
 outcome in non-small cell lung cancer:
 
-"Integration of clinical, pathological, radiological, and transcriptomic data improves the prediction of first-line 
-immunotherapy outcome in metastatic non-small cell lung cancer"
-
-**Preprint:** [https://doi.org/10.1101/2024.06.27.24309583](https://doi.org/10.1101/2024.06.27.24309583)
-
+[Captier, N., Lerousseau, M., Orlhac, F. et al. Integration of clinical, pathological, radiological, and transcriptomic data improves prediction for first-line immunotherapy outcome in metastatic non-small cell lung cancer. Nat Commun 16, 614 (2025).](https://doi.org/10.1038/s41467-025-55847-5)
 
 **Note:** The transcriptomic signatures were selected based on the work of [Kang *et al.* 2023](https://doi.org/10.3390/cancers15164094).
 ## Installation
@@ -128,6 +124,14 @@ python extract_signatures.py -c config.yaml
 
 
 </div>
+
+## Citing this repository
+
+If you this Python implementation in a scientific publication, we would appreciate citation to the [following paper](https://doi.org/10.1038/s41467-025-55847-5):
+
+```
+Captier, N., Lerousseau, M., Orlhac, F. et al. Integration of clinical, pathological, radiological, and transcriptomic data improves prediction for first-line immunotherapy outcome in metastatic non-small cell lung cancer. Nat Commun 16, 614 (2025). https://doi.org/10.1038/s41467-025-55847-5
+```
 
 ## Acknowledgements
 
